@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            margin: auto;
+            width: 80%;
+            align-content: space-around;
+        }
+
+        div {
+            padding: 10px;
+            width: 50%;
+            text-align: center;
+            border: solid black 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <form>
+            <label>Question: </label><br>
+            <input value="" type="text" id="query"><br>
+            <label>Answer 1: </label><br>
+            <input type="text" id="answer1"><br>
+            <label>Answer 2</label><br>
+            <input type="text" id="answer2"><br>
+            <label>Answer 3</label><br>
+            <input type="text" id="answer3"><br>
+            <label>Correct answer</label><br>
+            <input type="text" id="correct"><br><br>
+        </form>
+        <button id="send">Submit</button>
+    </div>
+
+    <div>
+        <label>Question: </label><br>
+        <p id="qSection2"></p><br>
+        <label>Answer 1: </label><br>
+        <p id="a1Section2"></p><br>
+        <label>Answer 2: </label><br>
+        <p id="a2Section2"></p><br>
+        <label>Answer 3: </label><br>
+        <p id="a3Section2"></p><br>
+        <label>Answer 4: </label><br>
+        <p id="a4Section2"></p><br><br>
+    </div>
+
+
+    <script src="challenge.js"></script>
+</body>
+
+</html>
